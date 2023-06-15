@@ -1,0 +1,49 @@
+
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="file"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .yes{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    
+  }
+  .no{
+    background-color: #e40523;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .yes:hover {
+    background-color: #45a049;
+  }
+
+  .no:hover {
+    background-color: #ce2b25;
+  }
+  
+ 
